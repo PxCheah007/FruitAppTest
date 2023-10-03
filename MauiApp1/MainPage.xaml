@@ -12,13 +12,12 @@
                         <Image Source="{Binding Image}" WidthRequest="60" HeightRequest="60" />
                         <StackLayout>
                             <Label Text="{Binding Name}" FontSize="24" />
-                            <Label Text="{Binding Description}" FontSize="18" />
+                            <!--<Label Text="{Binding Description}" FontSize="18" />-->
                         </StackLayout>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
-        
     </ListView>
 
 </ContentPage>

@@ -57,10 +57,33 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\apple.png" />
+	  <None Remove="Resources\Images\apricot.png" />
+	  <None Remove="Resources\Images\banana.png" />
+	  <None Remove="Resources\Images\coconut.png" />
+	  <None Remove="Resources\Images\grape.png" />
+	  <None Remove="Resources\Images\guava.png" />
+	  <None Remove="Resources\Images\kiwi.png" />
+	  <None Remove="Resources\Images\mango.png" />
+	  <None Remove="Resources\Images\melon.png" />
+	  <None Remove="Resources\Images\orange.png" />
+	  <None Remove="Resources\Images\peach.png" />
+	  <None Remove="Resources\Images\pear.png" />
+	  <None Remove="Resources\Images\pineapple.png" />
+	  <None Remove="Resources\Images\plum.png" />
+	  <None Remove="Resources\Images\pomegranate.png" />
+	  <None Remove="Resources\Images\strawberry.png" />
+	  <None Remove="Resources\Images\watermelon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="FruitDetails.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Page2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
